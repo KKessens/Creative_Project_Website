@@ -1,0 +1,73 @@
+body {
+  background-color: #c19a6b;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.line {
+  border: none;
+  height: 5px;
+  background-color: #6e260e;
+  width: 20%;
+  border-radius: 20px;
+}
+
+.introduction {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.introsplit {
+  border: none;
+  height: 5px;
+  background-color: #6e260e;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.introtext {
+  font-size: 20px;
+}
+
+.image {
+  width: 25% !important;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.imagecaption {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  padding: 50px;
+  margin-top: -50px;
+  color: #7b3f00;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  text-align: center;
+}
